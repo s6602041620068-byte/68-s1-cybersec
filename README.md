@@ -16,3 +16,8 @@ cp env.simp .env
 docker compose -f db.yaml up #monitoring
 docker compose -f db.yaml up -d #backaround
 ```
+### PG admin
+```sh
+docker compose -f admin.yaml up #monitoring
+docker compose -f admindb.yaml up -d #backaround
+```
