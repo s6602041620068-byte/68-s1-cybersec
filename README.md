@@ -19,5 +19,11 @@ docker compose -f db.yaml up -d #backaround
 ### PG admin
 ```sh
 docker compose -f admin.yaml up #monitoring
-docker compose -f admindb.yaml up -d #backaround
+docker compose -f admin.yaml up -d #backaround
+```
+
+### Application
+```sh
+docker compose -f app.yaml up #monitoring
+docker compose -f app.yaml up -d #backaround
 ```
